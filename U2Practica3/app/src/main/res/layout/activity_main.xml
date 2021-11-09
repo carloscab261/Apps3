@@ -4,46 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/thumb_1920_1143262"
+    android:background="@drawable/_94_1945425_fondos_de_pantalla_minimalistas_para_pc"
     tools:context=".MainActivity">
 
+
     <LinearLayout
-        android:id="@+id/lyEDI"
-        android:layout_marginTop="150dp"
-        android:layout_marginBottom="100dp"
-        android:padding="100dp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Email"></EditText>
-
-        <EditText
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:hint="Password"></EditText>
+        android:layout_marginHorizontal="12dp"
+        android:layout_marginTop="100dp"
+        android:background="#4D000000"
+        android:orientation="vertical"
+        android:padding="10dp">
 
         <LinearLayout
+            android:id="@+id/lyEDI"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/lyEDI"
-            android:padding="10dp"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:padding="10dp">
 
-            <Button
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="match_parent"
+                android:layout_height="110dp"
+                app:srcCompat="@drawable/meta_logo_1" />
+
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Login"></Button>
+                android:hint="Email"></EditText>
 
-            <Button
+            <EditText
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Reigistrar"></Button>
-
+                android:hint="Password"></EditText>
         </LinearLayout>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Login"></Button>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Reigistrar"></Button>
 
     </LinearLayout>
 
